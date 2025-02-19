@@ -1,4 +1,4 @@
-### Need of Spring
+### Need of Spring MVC
 1. Earlier Servelt was used to build and run an application which had following drawbacks
      1.1 Requires more manual coding and configuration.
      1.2 requires servlet mapping through web.xml
