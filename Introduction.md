@@ -5,8 +5,8 @@
 Then Spring MVC came into picture and reduced development effort by auto configuration, a rich set of libraries, Inversion of control etc
 
 ### Need of Spring 
-1. Even though spring MVC solved many issues, it still had it's drawbacks
-  1.1 In spring, No need to take care of dependency version compatibility. Let's say our pom has below dependencies
+1. Even though spring MVC solved many issues, it still had it's drawbacks <br/>
+  1.1 In spring, No need to take care of dependency version compatibility. Let's say our pom has below dependencies 
 
       <dependency>
             <groupId>org.projectlombok</groupId>
@@ -17,9 +17,9 @@ Then Spring MVC came into picture and reduced development effort by auto configu
             <groupId>jakarta.persistence</groupId>
             <artifactId>jakarta.persistence-api</artifactId>
             <version>3.1.0</version>
-      </dependency>
+      </dependency> <br/>
 
-   In spring mvc, if we change the version of lombok from 1.18.30 to something else, this could create trouble as persistence dependency might not be compatible with the new version.
+   1.2 In spring mvc, if we change the version of lombok from 1.18.30 to something else, this could create trouble as persistence dependency might not be compatible with the new version.
    In spring, we dont have to take care of version compatibility so our pom looks like this
     <dependency>
             <groupId>org.projectlombok</groupId>
